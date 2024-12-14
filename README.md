@@ -9,7 +9,8 @@ Gamma: A Generative ai that is fine tuned on counseling dataset to give proper o
 Kindly open the ipynb file in this repository and click open in colab on the top cell
 
 ## Some Note
-- To run all cell this jupyter file you will need Hugging face account and wanb account then generate your own token for training
+- emotion analysis used to asses and slit dataset while roberta_can_read_emotion used for training the model 
+- To run all cell in these jupyter file you will need Hugging face account and wanb account then generate your own token for training
 - not all cell will need both but mostly espically the one to take dataset, train, and save model will definetly need it
 
 ## Dataset used for this is from:
@@ -18,4 +19,4 @@ Kindly open the ipynb file in this repository and click open in colab on the top
 
 ## Trained model in this project available in hugging face:
 1. https://huggingface.co/FadQ/gemma-2b-diary-consultaton-chatbot
-2. https://huggingface.co/FadQ/Roberta_can_read_Emotion
+2. https://huggingface.co/FadQ/roberta-can-read-emotion
