@@ -1,5 +1,11 @@
 # Introduction
-This system utilize roberta to classify user's emotion and using gemma to create a feedback from user's input diary
+The goal of this system is to provide users with a platform that can understand and classify their emotional state from diary entries. The system processes the text input, predicts the user's emotional state, and then generates constructive feedback tailored to their emotional needs.
+
+The primary components of this system are:
+RoBERTa: A pre-trained transformer model that trained on emotion dataset for emotion classification.
+Gamma: A Generative ai that is fine tuned on counseling dataset to give proper ouput to user
+
+
 
 ## Dataset used for this is from:
 https://huggingface.co/datasets/OpenAssistant/oasst1/blob/main/data/train-00000-of-00001-b42a775f407cee45.parquet
