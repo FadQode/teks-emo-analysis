@@ -5,8 +5,12 @@ The primary components of this system are:
 RoBERTa: A pre-trained transformer model that trained on emotion dataset for emotion classification.
 Gamma: A Generative ai that is fine tuned on counseling dataset to give proper ouput to user
 
-## OPen With Colab
+## Open With Colab
 Kindly open the ipynb file in this repository and click open in colab on the top cell
+
+## Some Note
+- To run all cell this jupyter file you will need Hugging face account and wanb account then generate your own token for training
+- not all cell will need both but mostly espically the one to take dataset, train, and save model will definetly need it
 
 ## Dataset used for this is from:
 1. https://huggingface.co/datasets/OpenAssistant/oasst1/blob/main/data/train-00000-of-00001-b42a775f407cee45.parquet
